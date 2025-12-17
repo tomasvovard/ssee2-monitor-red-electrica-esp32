@@ -1,0 +1,51 @@
+# =========================
+# PlatformIO
+# =========================
+.pio/
+.pioenvs/
+.piolibdeps/
+
+# =========================
+# VS Code
+# =========================
+.vscode/
+
+# =========================
+# Build / binarios
+# =========================
+build/
+dist/
+*.elf
+*.bin
+*.hex
+*.map
+
+# =========================
+# Doxygen (salidas)
+# =========================
+docs/doxygen/html/
+docs/doxygen/latex/
+
+# =========================
+# Documentación opcional
+# =========================
+docs/hardware/circuit_sims/
+
+# =========================
+# Temporales / backups
+# =========================
+*.log
+*.tmp
+*~
+*.bak
+.DS_Store
+Thumbs.db
+
+# =========================
+# CMake
+# =========================
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
